@@ -131,34 +131,63 @@ Version      : 1.0
 
     $(window).on('load', function () {
         const svg = document.getElementById("preloaderSvg");
-        if (svg) {
+        const preloader = document.querySelector(".preloader");
+
+        if (svg && preloader) {
             const tl = gsap.timeline();
             const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
             const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
-            tl.to(".preloader-heading .load-text , .preloader-heading .cont", {
-                delay: 1.5,
-                y: -100,
-                opacity: 0,
-            });
-            tl.to(svg, {
-                duration: 0.5,
-                attr: { d: curve },
-                ease: "power2.easeIn",
-            }).to(svg, {
-                duration: 0.5,
-                attr: { d: flat },
-                ease: "power2.easeOut",
-            });
-            tl.to(".preloader", {
-                y: -1500,
-            });
-            tl.to(".preloader", {
-                zIndex: -1,
-                display: "none",
-            });
+            // Function to hide preloader
+            const hidePreloader = () => {
+                if (preloader.classList.contains('loaded')) return;
+                preloader.classList.add('loaded'); // Mark as loaded so we don't run twice
+
+                tl.to(".preloader-heading .load-text , .preloader-heading .cont", {
+                    delay: 0.2, // Reduced delay for faster perception
+                    y: -100,
+                    opacity: 0,
+                });
+                tl.to(svg, {
+                    duration: 0.5,
+                    attr: { d: curve },
+                    ease: "power2.easeIn",
+                }).to(svg, {
+                    duration: 0.5,
+                    attr: { d: flat },
+                    ease: "power2.easeOut",
+                });
+                tl.to(preloader, {
+                    y: -1500,
+                });
+                tl.to(preloader, {
+                    zIndex: -1,
+                    display: "none",
+                });
+            };
+
+            // Option 1: Hide when window is loaded (standard)
+            hidePreloader();
+
         }
     });
+
+    // Fallback: Force hide preloader after 2 seconds if window.load takes too long
+    setTimeout(() => {
+        const preloader = document.querySelector(".preloader");
+        if (preloader && !preloader.classList.contains('loaded')) {
+            // We can manually trigger the removal or just hide it
+            // Re-selecting parts to ensure we have access if scope issues, 
+            // but here we just reuse the idea. 
+            // Simpler approach for fallback:
+            gsap.to(".preloader", {
+                y: -1500, duration: 0.5, onComplete: () => {
+                    preloader.style.zIndex = -1;
+                    preloader.style.display = "none";
+                }
+            });
+        }
+    }, 2000);
 
     /*
      * ----------------------------------------------------------------------------------------

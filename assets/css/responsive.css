@@ -266,10 +266,7 @@ Version      : 1.0
         text-transform: uppercase;
     }
 
-    body {
-        overflow-x: hidden;
 
-    }
 
     #magic-cursor {
         display: none;
