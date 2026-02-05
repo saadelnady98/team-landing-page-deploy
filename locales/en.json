@@ -1,0 +1,211 @@
+{
+  "header": {
+    "language": {
+      "current": "English"
+    }
+  },
+  "languages": {
+    "ar": "Arabic",
+    "en": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Our Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "pages": "Pages",
+    "onepage": "One Page Version",
+    "multipage": "Multi Page Version",
+    "two_column": "Two Columns",
+    "three_column": "Three Columns",
+    "single_project": "Single Project",
+    "blog": "Blog",
+    "single_blog": "Blog Details",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "error404": "404"
+  },
+  "hero": {
+    "title": "Our Software Development Work",
+    "description": "Here we showcase a selection of real projects we have delivered for our clients.",
+    "btn": "Contact Us"
+  },
+  "projectSteps": {
+    "title": "Project Execution Steps",
+    "steps": {
+      "s1": {
+        "title": "Client Requirements Analysis",
+        "desc": "Collecting data and understanding project goals to accurately define requirements."
+      },
+      "s2": {
+        "title": "UI/UX Design",
+        "desc": "Creating an attractive and user-friendly design that reflects the project goals."
+      },
+      "s3": {
+        "title": "Software Development (Web or Mobile)",
+        "desc": "Developing the website or application using the latest technologies."
+      },
+      "s4": {
+        "title": "Quality Assurance & Cross-Device Testing",
+        "desc": "Testing the application across different devices to ensure quality and compatibility."
+      },
+      "s5": {
+        "title": "Project Launch & Post-Launch Support",
+        "desc": "Deploying the project and providing ongoing technical support to ensure consistent performance."
+      }
+    }
+  },
+  "projects": {
+    "title": "Recent Work",
+    "p1": {
+      "category": "Branding",
+      "title": "Cocktail Cups"
+    },
+    "p2": {
+      "category": "Mockups",
+      "title": "Branch with Flowers"
+    },
+    "p3": {
+      "category": "Video",
+      "title": "Orange Flower"
+    },
+    "p4": {
+      "category": "Branding",
+      "title": "Green Plant"
+    },
+    "p5": {
+      "category": "Mockups",
+      "title": "Orange Rose Flower"
+    },
+    "p6": {
+      "category": "Logo",
+      "title": "Rose Flower"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "blog": {
+    "title": "Stories",
+    "btn": "Read More",
+    "posted_on": "Posted on August 28"
+  },
+  "about": {
+    "title": "Who We Are",
+    "desc": "We are a software development company specialized in building innovative digital solutions that help businesses grow and achieve measurable results. We combine creativity, technical expertise, and a deep understanding of business needs to deliver high-quality digital products focused on user experience, performance, and sustainability.",
+    "desc2": "We work as a true technical partner for our clients, from the idea stage through launch and ongoing support, with a strong commitment to quality, transparency, and on-time delivery.",
+    "exp": "Years of Experience",
+    "projects": "Completed Projects",
+    "satisfaction": "Client Satisfaction"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "ready": "Are You Ready?",
+    "elevate": "Elevate Your Brand Experience to the Next Level",
+    "desc": "Hi, I'm Ina, a passionate UX designer dedicated to creating intuitive and user-friendly digital experiences.",
+    "form": {
+      "name_label": "Full Name",
+      "name_placeholder": "Steve Milner",
+      "email_label": "Email Address",
+      "email_placeholder": "hello@websitename.com",
+      "subject_label": "Subject",
+      "subject_placeholder": "Your Subject",
+      "message_label": "Your Message",
+      "message_placeholder": "Write your message",
+      "btn": "Send Me a Message",
+      "success": "We have received your message. We will get back to you shortly!",
+      "error": "Sorry, we couldn't send your message. Please try again."
+    }
+  },
+  "footer": {
+    "ready": "Have a Project in Mind?",
+    "template_by": "Designed by",
+    "copyright": "Copyright 2024"
+  },
+  "startProject": "Start Your Project Now",
+  "showProject": "View Project",
+  "all": "All",
+  "web": "Websites",
+  "mobile": "Mobile Apps",
+  "team-tecnologies": {
+    "title": "Team & Technologies",
+    "description": "Our team consists of software development experts who combine creativity and technical expertise to deliver innovative, high-quality solutions, with a strong focus on user experience and impactful business results.",
+    "techTitle": "We use the latest technologies to ensure project stability and performance, including:",
+    "titles": {
+      "mobile": "Mobile Applications",
+      "frontend": "Front-end Development",
+      "backend": "Back-end Development",
+      "tools": "Design & Project Management",
+      "cloud": "Databases & Cloud Computing"
+    },
+    "technologies": {
+      "frontend": "HTML5, CSS3, JavaScript, React.js, Next.js",
+      "backend": "PHP, Laravel",
+      "mobile": "Flutter",
+      "cloud": "MySQL, Firebase, AWS",
+      "tools": "Figma, Adobe XD, Jira, Trello"
+    }
+  },
+  "services": {
+    "title": "Our Software Development Services",
+    "intro": "We deliver end-to-end digital solutions that help your business grow — from idea to launch and ongoing support.",
+    "includes": "Includes",
+    "service1": {
+      "title": "Mobile App Development",
+      "description": "We turn your idea into a professional app with excellent user experience and high performance.",
+      "includes": [
+        "Idea analysis and transformation into a clear digital product",
+        "UI/UX design",
+        "iOS and Android app development",
+        "Hybrid or Native apps",
+        "System and database integration",
+        "Smart notifications and alerts",
+        "Performance and quality testing",
+        "App store publishing",
+        "Ongoing support and updates"
+      ],
+      "cta": "Request Your App Now"
+    },
+    "service2": {
+      "title": "Website Design & Development",
+      "description": "We build fast, professional, and responsive websites that deliver an outstanding user experience.",
+      "includes": [
+        "Professional UI design",
+        "Smooth and interactive UX",
+        "High-performance, responsive development",
+        "Mobile and cross-device compatibility",
+        "Speed optimization and user experience enhancement",
+        "Payment gateway and platform integration",
+        "Analytics and performance tracking integration",
+        "Post-launch support and maintenance"
+      ],
+      "cta": "Start Your Website Now"
+    },
+    "service3": {
+      "title": "E-commerce Development",
+      "description": "We design online stores that increase sales and optimize the shopping experience.",
+      "includes": [
+        "Store idea and business model analysis",
+        "Conversion-focused UX/UI design",
+        "Store development (Shopify – WooCommerce – Custom)",
+        "Payment and shipping gateway integration",
+        "Product and inventory management",
+        "Store speed and performance optimization",
+        "Analytics and tracking setup",
+        "Purchase flow and user experience testing",
+        "Ongoing support and updates"
+      ],
+      "cta": "Build Your Store Now"
+    },
+    "projects": {
+      "title": "Projects",
+      "categories": {
+        "websites": "Websites",
+        "mobile": "Mobile Apps"
+      },
+      "project_cta": "Explore Project",
+      "section_cta": "Start Your Project Today"
+    }
+  }
+}
