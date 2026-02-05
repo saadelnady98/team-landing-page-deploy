@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Seven Continents ",
             description: { ar: "شركة وساطة عقارية رائدة في دبي، تقدم خدمات احترافية للعقارات السكنية والتجارية.", en: "A leading Dubai real estate brokerage offering expert services across residential and commercial properties. " },
-            image: "assets/images/seven continents.png",
+            image: "assets/images/seven continents.webp",
             category: "Web Development",
             type: "web",
             link: "https://sevencontinentsuae.com/en"
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Luxury Living Homes ",
             description: { ar: "شركة عقارية في دبي متخصصة في العقارات الفاخرة، وتقدم حلولًا مخصصة للعملاء.", en: "A luxury-focused real estate brokerage in Dubai delivering personalized, high-end property solutions." },
-            image: "assets/images/luxury.png",
+            image: "assets/images/luxury.webp",
             category: "Web Development",
             type: "web",
             link: "https://luxurylivinghomes.ae/en"
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Paradise Group ",
             description: { ar: "مجموعة ضيافة سعودية تدير فنادق متميزة للحجاج والمسافرين، بخبرة تتجاوز 15 عامًا.", en: "A Saudi hospitality group managing premium hotels for pilgrims and travelers with over 15 years of experience. " },
-            image: "assets/images/paradise.png",
+            image: "assets/images/paradise.webp",
             category: "Web Development",
             type: "web",
             link: ""
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Nawaya Al Khair ",
             description: { ar: "مؤسسة سعودية توفر أثاثًا مدرسيًا حديثًا وعالي الجودة لمختلف المراحل التعليمية.", en: "A Saudi company providing modern, high-quality school furniture for all educational stages. " },
-            image: "assets/images/nawaya.png",
+            image: "assets/images/nawaya.webp",
             category: "Web Development",
             type: "web",
             link: "https://nawayaalkhair.com/"
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Opus Glass ",
             description: { ar: "شركة إماراتية متخصصة في حلول أفلام الزجاج المتطورة والعصرية.", en: "A UAE company specializing in advanced and stylish glass film solutions. " },
-            image: "assets/images/opus.png",
+            image: "assets/images/opus.webp",
             category: "Web Development",
             type: "web",
             link: ""
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Roia Glass",
             description: { ar: "علامة تجارية متخصصة في حلول أفلام الزجاج الذكية والمبتكرة.", en: " A smart film brand delivering innovative digital glass film solutions." },
-            image: "assets/images/roia.png",
+            image: "assets/images/roia.webp",
             category: "Web Development",
             type: "web",
             link: "https://roia.ae/"
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Takarli & Co",
             description: { ar: "شركة عقارية في دبي تقدم خدمات موثوقة للعقارات السكنية والتجارية.", en: " A Dubai real estate company offering reliable residential and commercial property services" },
-            image: "assets/images/takarli.png",
+            image: "assets/images/takarli.webp",
             category: "Web Development",
             type: "web",
             link: "https://takarli.ae/"
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Agilova",
             description: { ar: "منصة عقارية في دبي تقدم حلولًا حديثة وسهلة الاستخدام للعقارات.", en: "  A Dubai-based real estate platform offering modern and user-friendly property solutions." },
-            image: "assets/images/agilova.png",
+            image: "assets/images/agilova.webp",
             category: "Web Development",
             type: "web",
             link: "https://agilova.com/"
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Dorra Taiba",
             description: { ar: "علامة ضيافة سعودية فاخرة توفر إقامة مريحة وخدمات ضيافة متميزة.", en: "A premium Saudi hospitality brand offering comfortable stays and excellent guest services." },
-            image: "assets/images/dorra-taiba.png",
+            image: "assets/images/dorra-taiba.webp",
             category: "Web Development",
             type: "web",
             link: "https://dorrattaybah.com/en"
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "R&H Capital",
             description: { ar: "شركة عقارية في دبي تقدم خدمات احترافية وتجربة معاملات عقارية سلسة.", en: "A Dubai real estate company delivering professional services and smooth property transactions." },
-            image: "assets/images/rh_capital.png",
+            image: "assets/images/rh_capital.webp",
             category: "Web Development",
             type: "web",
             link: "https://rhcapital.ae/en"
