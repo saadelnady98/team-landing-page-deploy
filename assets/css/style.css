@@ -4293,6 +4293,10 @@ ul.blog_pagination li a:hover {
   padding-top: 50px;
   padding-bottom: 80px;
 
+  .row {
+    margin-top: 60px;
+  }
+
   .services-title {
     color: var(--heading-color);
     font-weight: 700;
@@ -4405,6 +4409,7 @@ ul.blog_pagination li a:hover {
     transition: 0.3s ease;
     font-weight: 500;
     font-family: var(--heading-font);
+    font-size: 14px;
 
     &:hover {
       background: transparent;
