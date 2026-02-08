@@ -58,6 +58,11 @@ Version      : 1.0
   border: none;
   outline: none;
   box-shadow: none;
+
+}
+
+html {
+  overflow-x: auto;
 }
 
 body {
@@ -67,7 +72,7 @@ body {
   line-height: 30px;
   font-size: 16px;
   font-family: var(--text-font);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body.rtl {
@@ -108,6 +113,10 @@ body.rtl .ri-arrow-right-up-line {
 .language-switcher {
   position: relative;
   width: 100px;
+
+  @media (max-width: 767px) {
+    width: 80px;
+  }
 }
 
 .language-switcher .dropdown-menu {
@@ -131,6 +140,12 @@ body.rtl .ri-arrow-right-up-line {
   display: flex;
   align-items: center;
   gap: 10px;
+
+
+  @media (max-width: 767px) {
+    font-size: 12px;
+    gap: 0px;
+  }
 }
 
 .language-switcher .dropdown-item:hover {
@@ -890,13 +905,14 @@ html {
   transition: all 500ms ease;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .main-header .header-upper {
   z-index: 5;
   width: 100%;
 
-  padding-inline-end: 10px;
+  /* padding-inline-end: 10px; */
   padding-top: 25px;
 
   position: fixed;
@@ -1278,6 +1294,7 @@ html {
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  overflow: auto;
 }
 
 .body-overlay:hover {
@@ -2685,7 +2702,7 @@ p.copy-right-text {
 .footer-top {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../images/hero-4.jpeg);
+  background-image: url(../images/hero-2.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -2693,6 +2710,10 @@ p.copy-right-text {
   .content {
     position: relative;
     z-index: 2;
+  }
+
+  h3 {
+    text-align: center;
   }
 
   .over-lay {
@@ -3695,6 +3716,10 @@ ul.blog_pagination li a:hover {
   #currentLangText {
     font-size: 14px;
     font-weight: 500;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -3803,6 +3828,10 @@ ul.blog_pagination li a:hover {
 
 .logo-area {
   width: fit-content;
+
+  h3 {
+    margin: 0;
+  }
 }
 
 .project-filter-btn {
