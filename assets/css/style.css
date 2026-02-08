@@ -521,6 +521,11 @@ html {
   text-transform: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
 }
 
 .theme-btn-two {
@@ -1312,19 +1317,14 @@ html {
 * 04.HEADER CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.main-hero-area {
 
-  background: url(../images/custom/hero-bg.jpg) no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
-}
 
 .main-hero-image-area {
   /* background: url(../images/hero-image.jpg) no-repeat; */
-  background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
+  /* background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
   background-position: right center;
   z-index: 1;
-  position: relative;
+  position: relative; */
 }
 
 .main-hero-image-area:after {
@@ -1745,7 +1745,7 @@ h2.about-pre-title {
 */
 .services-area {
   padding-bottom: 100px;
-  background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
+  /* background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat; */
   background-position: right center;
 
   .row {
@@ -2198,6 +2198,21 @@ ul.extra-skills li i {
   .theme-btn {
     font-size: 16px;
     padding: 10px 20px;
+  }
+
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    .theme-btn {
+      font-size: 12px;
+      padding: 10px 20px;
+    }
   }
 }
 
@@ -3923,6 +3938,16 @@ ul.blog_pagination li a:hover {
   }
 }
 
+.section-title .description2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
 
 
 .service-1 .section-title h2 {
@@ -4295,7 +4320,7 @@ ul.blog_pagination li a:hover {
   background: var(--black-color);
   border: 1px solid var(--border-color);
   border-radius: 16px;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -4310,7 +4335,7 @@ ul.blog_pagination li a:hover {
     width: 60px;
     height: 60px;
     color: var(--primary-color);
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 
     svg {
@@ -4322,7 +4347,7 @@ ul.blog_pagination li a:hover {
   .service-title {
     font-size: 25px;
     color: var(--heading-color);
-    margin-bottom: 20px;
+    margin: 40px 0 20px;
   }
 
   .service-description {
@@ -4371,7 +4396,6 @@ ul.blog_pagination li a:hover {
   }
 
   .cta-button {
-    margin-top: 24px;
     align-self: flex-start;
     background: var(--primary-color);
     border: 1px solid var(--button-border);
@@ -4379,7 +4403,8 @@ ul.blog_pagination li a:hover {
     padding: 10px 22px;
     /* border-radius: 30px; */
     transition: 0.3s ease;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: var(--heading-font);
 
     &:hover {
       background: transparent;
@@ -4389,30 +4414,7 @@ ul.blog_pagination li a:hover {
   }
 }
 
-/ *   H e r o   S l i d e r   S t y l e s   * /     . h e r o - s l i d e r    {
-               w i d t h :    1 0 0 % ;
-               h e i g h t :    1 0 0 % ;
-       
-}
 
-         . h e r o - s l i d e r   . s w i p e r - s l i d e    {
-               d i s p l a y :    f l e x ;
-               a l i g n - i t e m s :    c e n t e r ;
-               j u s t i f y - c o n t e n t :    c e n t e r ;
-               m i n - h e i g h t :    1 0 0 v h ;
-               p a d d i n g :    1 0 0 p x   0 ;
-       
-}
-
-         . h e r o - s l i d e r   . h e r o - c o n t e n t    {
-               w i d t h :    1 0 0 % ;
-       
-}
-
-    justify-content: center;
-margin: 0 auto 10px;
-transition: all 0.4s ease-in-out;
-}
 
 .service-3 .service-item .content h4 {
   margin-bottom: 10px;

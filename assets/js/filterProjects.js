@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="col-md-6 col-xl-4 portfolio-item">
                     <a href="${project.link}" target="_blank">
                         <div class="portfolio-box">
-                            <img src="${project.image}" alt="${project.title}">
+                            <img src="${project.image}" alt="${project.title}" loading="lazy">
                             <span class="portfolio-category">${project.category}</span>
                             <div class="portfolio-caption">
                                 <h3>${project.title}</h3>

@@ -55,17 +55,24 @@ const sideMenu = document.getElementById("sideMenu");
 const closeMenu = document.getElementById("closeMenu");
 const overlay = document.getElementById("sideOverlay");
 
-burgerBtn.addEventListener("click", () => {
-  sideMenu.classList.add("active");
-  overlay.classList.add("active");
-});
+if (burgerBtn) {
+  burgerBtn.addEventListener("click", () => {
+    if (sideMenu) sideMenu.classList.add("active");
+    if (overlay) overlay.classList.add("active");
+  });
+}
 
-closeMenu.addEventListener("click", closeSidebar);
-overlay.addEventListener("click", closeSidebar);
+if (closeMenu) {
+  closeMenu.addEventListener("click", closeSidebar);
+}
+
+if (overlay) {
+  overlay.addEventListener("click", closeSidebar);
+}
 
 function closeSidebar() {
-  sideMenu.classList.remove("active");
-  overlay.classList.remove("active");
+  if (sideMenu) sideMenu.classList.remove("active");
+  if (overlay) overlay.classList.remove("active");
 }
 
 // Close on link click
